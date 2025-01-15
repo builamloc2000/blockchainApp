@@ -1,4 +1,6 @@
-export const NETWORK = 'ghostnet';
+import { NetworkType } from '@airgap/beacon-sdk';
+
+export const NETWORK = 'ghostnet' as NetworkType;
 export const RPC_URL = 'https://ghostnet.ecadinfra.com';
 
 // Replace these with your actual wallet addresses
